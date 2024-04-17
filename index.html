@@ -87,9 +87,10 @@
                 <p>This section contains additional details.</p>
             </details>
             
-            <select>
-                <option value="option1">Option 1</option>
-                <option value="option2">Option 2</option>
+            <select id="country" name="country" required>
+                <option value="" disabled selected>Select your country</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
             </select>
             
             <button type="button">Click Me</button>
@@ -114,11 +115,12 @@
             <input type="email" id="email" name="email" required><br>
             <label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
-            <label for="Country">Country:</label>
+            <label for="country">Country:</label>
             <select id="country" name="country" required>
                 <option value="" disabled selected>Select your country</option>
                 <option value="usa">USA</option>
                 <option value="canada">Canada</option>
+            </select>
         </fieldset>
     </form>
 </body>
