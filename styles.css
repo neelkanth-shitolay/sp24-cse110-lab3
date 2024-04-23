@@ -137,3 +137,35 @@ p:hover {
 h2, h3 {
     font-style: italic;
 }
+
+/* Combinators */
+/* Descendant Combinator */
+/* element element */
+nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Child Combinator */
+/* element > element */
+nav > ul {
+    background-color: #eee;
+}
+
+/* General sibling combinator */
+/* element ~ element */
+header ~ main {
+    margin-top: 20px;
+}
+
+/* Adjacent sibling combinator */
+/* element + element */
+nav + main {
+    padding-top: 20px;
+}
+
+/* Combining Two Selectors */
+/* element.class */
+h1.title {
+    text-decoration: underline;
+}
