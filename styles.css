@@ -80,3 +80,15 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
+
+/* Responsiveness */
+@media only screen and (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+}
