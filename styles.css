@@ -92,3 +92,30 @@ main {
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/* CSS Selectors */
+
+/* Class Selector */
+/* .class */
+.my-class {
+    color: blue;
+}
+
+/* ID Selector */
+/* #id */
+#my-id {
+    font-weight: bold;
+}
+
+/* Universal Selector */
+/* * */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selector */
+/* element */
+p {
+    font-size: 16px;
+}
