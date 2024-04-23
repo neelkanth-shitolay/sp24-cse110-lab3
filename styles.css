@@ -169,3 +169,14 @@ nav + main {
 h1.title {
     text-decoration: underline;
 }
+
+/* New Selectors */
+/* :has() */
+/* Nested Selectors */
+h1:has(+ p) {
+    margin-bottom: 0;
+}
+
+nav ul li {
+    font-weight: bold;
+}
