@@ -15,3 +15,20 @@ main {
     width: 80%;
     margin: 0 auto;
 }
+
+/* Box Model */
+/* Margin */
+#brainstorming {
+    margin: 20px;
+}
+
+/* Padding */
+header {
+    padding: 10px;
+}
+
+/* Borders */
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
