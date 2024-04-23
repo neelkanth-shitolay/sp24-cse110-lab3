@@ -49,3 +49,34 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* Position */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Pseudo-class */
+button:hover {
+    background-color: #ccc;
+}
+
+/* Layouts */
+/* Flexbox */
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Grid */
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
