@@ -1,0 +1,17 @@
+/* Colors */
+body {
+    color: rgb(50, 50, 50);
+    background-color: #f0f0f0;
+}
+
+/* Background */
+header {
+    background-color: #333;
+    color: white;
+}
+
+/* Unit */
+main {
+    width: 80%;
+    margin: 0 auto;
+}
